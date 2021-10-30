@@ -4,7 +4,7 @@ class Message extends Component{
     constructor(){
        super()
        this.state={
-         message: 'This is a message'
+         message:'Welcome Visitor'
        }
     }
 
@@ -12,7 +12,7 @@ class Message extends Component{
         this.setState({
             message:'Thank you for subscribing'
         })
-    }
+    } 
 
     render(){
         return( 
