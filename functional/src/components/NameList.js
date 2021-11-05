@@ -20,8 +20,9 @@ function NameList() {
         skill:'Java'
     },]
 
-    const personList=persons.map(person => <h2>I am {person.name}, I am {person.age} years old and i have {person.skill} skill</h2>)
-    return <div>{personList}</div>
+    // const personList=persons.map(person => <h2>I am {person.name}, I am {person.age} years old and i have {person.skill} skill</h2>)
+    // const personList=persons.map (person => <person key={person.id}/>)
+    return <div>{NameList}</div>
 }
 
 export default NameList

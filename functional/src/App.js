@@ -11,14 +11,18 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
-import NameList from './NameList';
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline'
 
 class App extends Component{
   render(){
   return (
     <div className="App">
-      <NameList/>
+      <Inline/>
 
+      {/* <Stylesheet primary={false}/> */}
+      {/* <NameList/> */}
       {/* <UserGreeting/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind/> */}
